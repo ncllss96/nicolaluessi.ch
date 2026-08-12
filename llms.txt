@@ -16,9 +16,9 @@ Last updated: 12 August 2026
 
 ## Selected work
 
-- Content Clusters and Hub Pages: Nicola conceived and leads this platform programme across information structure, CMS capabilities, governance, newsroom workflows and an automated layer using named-entity data and content classification; the CMS changes are live and support manually built Hub Pages, while the automated entity-driven layer remains in development
-- SEO Helper: Nicola initiated and led the development of this CMS-native AI-assisted guidance product, translating editorial standards into product requirements and defining its evaluation logic, feedback and validation approach
-- AI and analytics workflows: designed human-in-the-loop systems connecting audience signals, APIs, analytics, Slack and Google Workspace, including scheduled reporting, decision-support briefings and assisted drafting workflows
+- Content Clusters and Hub Pages: Nicola conceived and leads the programme; CMS changes support manually built Hub Pages, while entity-driven automation remains in development
+- SEO Helper: Nicola initiated and led this CMS-native AI-assisted guidance tool
+- AI and analytics workflows: designed human-in-the-loop systems for reporting, decision support and assisted drafting
 - Editorial SEO across Tamedia: built roles, guidelines, workflows, training, dashboards and CMS-integrated tools across newsrooms and brands
 
 ## How Nicola works

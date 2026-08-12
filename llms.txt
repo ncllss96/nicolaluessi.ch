@@ -1,10 +1,10 @@
 # Nicola Lüssi
 
-> Official personal website and online CV of Nicola Lüssi. He works across audience growth, product and automation, with experience spanning media, e-commerce and entrepreneurship.
+> Official personal website and online profile of Nicola Lüssi. He leads audience-growth initiatives and builds digital products, AI-assisted workflows and analytics systems across media, e-commerce and entrepreneurship.
 
 This file points to the preferred public sources for factual information about Nicola Lüssi. The English profile contains the current biography, experience, education, recognition and contact details.
 
-Last updated: 5 August 2026
+Last updated: 12 August 2026
 
 ## Official profile
 
@@ -12,19 +12,20 @@ Last updated: 5 August 2026
 
 ## Current role
 
-- Head of Growth Lab at Tamedia since March 2026, leading work across editorial, data, product and content strategy
+- Head of Growth Lab at Tamedia since March 2026, leading a cross-functional portfolio across Product, Data, Editorial and content strategy from discovery through launch, evaluation and operational handover
 
 ## Selected work
 
-- Editorial SEO across Tamedia: built roles, guidelines, workflows, training, dashboards and CMS-integrated tools across newsrooms and brands; more than 600 journalists and producers were trained
-- SEO Helper: Nicola initiated this CMS-native editorial product, designed its 100-point scoring model, defined its checks and feedback, translated SEO standards into product requirements and led validation with the development team
-- Briefing Kitchen: initiated the AI-assisted Slack briefing, laid its foundation and remains responsible for it while the team continues its development
+- Content Clusters and Hub Pages: Nicola conceived and leads this platform programme across information structure, CMS capabilities, governance, newsroom workflows and an automated layer using named-entity data and content classification; the CMS changes are live and support manually built Hub Pages, while the automated entity-driven layer remains in development
+- SEO Helper: Nicola initiated and led the development of this CMS-native AI-assisted guidance product, translating editorial standards into product requirements and defining its evaluation logic, feedback and validation approach
+- AI and analytics workflows: designed human-in-the-loop systems connecting audience signals, APIs, analytics, Slack and Google Workspace, including scheduled reporting, decision-support briefings and assisted drafting workflows
+- Editorial SEO across Tamedia: built roles, guidelines, workflows, training, dashboards and CMS-integrated tools across newsrooms and brands
 
-## Working stack
+## How Nicola works
 
-- Audience and analytics: Google Search Console, Google Analytics 4, Piano Analytics, Parse.ly, NewzDash, Google Trends, Google Sheets and Looker Studio. Google Trends and Google Sheets are particular strengths, and Nicola has taught Google Trends in repeated newsroom workshops
-- SEO and publishing: SISTRIX, Semrush, Ahrefs, Screaming Frog, PageSpeed Insights and Unity CMS
-- Automation and AI-assisted prototyping: Google Apps Script, n8n, Slack automation, API and webhook integrations, Claude, Claude Code and Codex. Nicola uses AI-assisted coding to prototype Slack apps, integrations and internal tools
+- Discovery and delivery: product discovery, requirements, roadmaps, experiment design, launch, adoption, vendor evaluation and operational handover
+- Data and measurement: Google Search Console, Google Analytics 4, Parse.ly, Google Trends, Google Sheets, Looker Studio, Google Apps Script and Google Cloud
+- AI and automation: n8n, Slack apps, API and webhook integrations, human-in-the-loop design, evaluation, logging, Claude, Claude Code and Codex
 
 ## Recognition and contribution
 
@@ -38,7 +39,7 @@ Last updated: 5 August 2026
 
 ## Ventures
 
-- [Ballers on Instagram](https://www.instagram.com/ballers.ch/): Sports-merchandise e-commerce business operated from 2019 to 2025 and grown to six figures in annual revenue; Nicola worked across the online shop, SEA, performance tracking, B2B agreements, marketing and customer operations
+- [Ballers on Instagram](https://www.instagram.com/ballers.ch/): Sports-merchandise e-commerce business operated from 2019 to 2025; Nicola worked across the online shop, SEA, performance tracking, B2B agreements, marketing and customer operations
 - [Hockey News Schweiz on Instagram](https://www.instagram.com/hockey_news_schweiz/): Social-first Swiss ice-hockey media brand built mainly on Facebook and Instagram and monetised through advertising sold across its social channels
 
 ## Earlier product work

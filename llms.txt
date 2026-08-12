@@ -16,7 +16,7 @@ Last updated: 12 August 2026
 
 ## Selected work
 
-- Content Clusters and Hub Pages: Nicola conceived and leads the programme; CMS changes support manually built Hub Pages, while entity-driven automation remains in development
+- Content Clusters and Hub Pages: Nicola conceived and leads the programme; CMS changes support manually built Hub Pages. Geneea provides NLP-based entity data through an integration led by another team, while automated Hub Pages using that data remain in development
 - SEO Helper: Nicola initiated and led this CMS-native AI-assisted guidance tool
 - AI and analytics workflows: designed human-in-the-loop systems for reporting, decision support and assisted drafting
 - Editorial SEO across Tamedia: built roles, guidelines, workflows, training, dashboards and CMS-integrated tools across newsrooms and brands

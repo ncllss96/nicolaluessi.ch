@@ -555,8 +555,8 @@ a:not(.button):hover {
 .impact-card-featured {
   grid-column: 1 / -1;
   display: grid;
-  grid-template-columns: minmax(0, 1.2fr) minmax(280px, 0.8fr);
-  gap: 30px clamp(42px, 7vw, 84px);
+  grid-template-columns: 1fr;
+  gap: 24px;
   padding: clamp(36px, 6vw, 68px);
 }
 
@@ -573,16 +573,12 @@ a:not(.button):hover {
 .impact-featured-copy {
   display: flex;
   flex-direction: column;
+  max-width: 900px;
 }
 
 .impact-featured-copy > p {
   margin-top: 0;
   color: var(--muted);
-}
-
-.impact-card-featured .outcome-list {
-  grid-template-columns: 1fr;
-  margin: 0;
 }
 
 .impact-card h3,
@@ -601,27 +597,6 @@ a:not(.button):hover {
 .capability-grid p,
 .education-grid article > p:last-of-type {
   color: var(--muted);
-}
-
-.outcome-list {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 12px;
-  margin: 22px 0 26px;
-  padding: 0;
-  list-style: none;
-}
-
-.outcome-list li {
-  border-top: 2px solid var(--red);
-  padding-top: 12px;
-  color: var(--muted);
-  font-size: 0.9rem;
-}
-
-.outcome-list strong {
-  display: block;
-  color: var(--ink);
 }
 
 .text-link {
@@ -1163,7 +1138,6 @@ a.button:focus-visible,
   }
 
   .impact-grid,
-  .outcome-list,
   .capability-grid,
   .tool-grid,
   .education-grid,
@@ -1179,10 +1153,6 @@ a.button:focus-visible,
 
   .impact-featured-heading {
     grid-column: auto;
-  }
-
-  .impact-card-featured .outcome-list {
-    grid-template-columns: 1fr;
   }
 
   .capability-grid article:last-child {

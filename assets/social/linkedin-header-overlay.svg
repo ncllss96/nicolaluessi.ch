@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1584" height="396" viewBox="0 0 1584 396">
+  <rect x="0" y="0" width="16" height="396" fill="#c8102e"/>
+
+  <text
+    x="480"
+    y="84"
+    fill="#c8102e"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="21"
+    font-weight="700"
+    letter-spacing="2.8"
+  >AUDIENCE GROWTH · PRODUCT · SEARCH · AI</text>
+
+  <text
+    x="476"
+    y="177"
+    fill="#191817"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="61"
+  >I build for</text>
+
+  <text
+    x="480"
+    y="244"
+    fill="#c8102e"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="61"
+    font-style="italic"
+  >the audience first.</text>
+
+  <line x1="480" y1="284" x2="1048" y2="284" stroke="#dcd6cf" stroke-width="2"/>
+
+  <text
+    x="480"
+    y="333"
+    fill="#191817"
+    font-family="'Courier New', Courier, monospace"
+    font-size="20"
+    letter-spacing="2.2"
+  >NICOLALUESSI.CH</text>
+
+  <g fill="#c8102e" transform="translate(1404 56) scale(3.15)">
+    <path d="M8 2h4v2h2v2h2v2h2V6h2V4h2V2h4v2h2v2h2v8h-2v4h-2v2h-2v2h-2v2h-2v2h-2v2h-2v-2h-2v-2h-2v-2h-2v-2H8v-2H6v-4H4V6h2V4h2z"/>
+  </g>
+</svg>

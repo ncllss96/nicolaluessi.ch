@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1584" height="396" viewBox="0 0 1584 396" role="img" aria-labelledby="title desc">
+  <title id="title">Audience first. Nicola Lüssi LinkedIn banner</title>
+  <desc id="desc">A crisp ivory and red banner matching the visual identity of nicolaluessi.ch.</desc>
+
+  <rect width="1584" height="396" fill="#faf8f5"/>
+  <rect width="16" height="396" fill="#c8102e"/>
+  <rect x="1240" width="344" height="396" fill="#c8102e"/>
+
+  <g fill="#a50c25" opacity="0.44">
+    <rect x="1272" y="32" width="10" height="10"/>
+    <rect x="1304" y="32" width="10" height="10"/>
+    <rect x="1336" y="32" width="10" height="10"/>
+    <rect x="1368" y="32" width="10" height="10"/>
+    <rect x="1400" y="32" width="10" height="10"/>
+    <rect x="1432" y="32" width="10" height="10"/>
+    <rect x="1464" y="32" width="10" height="10"/>
+    <rect x="1496" y="32" width="10" height="10"/>
+    <rect x="1528" y="32" width="10" height="10"/>
+
+    <rect x="1272" y="354" width="10" height="10"/>
+    <rect x="1304" y="354" width="10" height="10"/>
+    <rect x="1336" y="354" width="10" height="10"/>
+    <rect x="1368" y="354" width="10" height="10"/>
+    <rect x="1400" y="354" width="10" height="10"/>
+    <rect x="1432" y="354" width="10" height="10"/>
+    <rect x="1464" y="354" width="10" height="10"/>
+    <rect x="1496" y="354" width="10" height="10"/>
+    <rect x="1528" y="354" width="10" height="10"/>
+  </g>
+
+  <text
+    x="474"
+    y="99"
+    fill="#67615c"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="20"
+    font-weight="700"
+    letter-spacing="3"
+  >GROWTH · PRODUCT · SEARCH · AI</text>
+
+  <text
+    x="466"
+    y="235"
+    fill="#191817"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="96"
+  >Audience</text>
+
+  <text
+    x="912"
+    y="235"
+    fill="#c8102e"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="96"
+    font-style="italic"
+  >first.</text>
+
+  <line x1="474" y1="278" x2="1116" y2="278" stroke="#dcd6cf" stroke-width="2"/>
+
+  <text
+    x="474"
+    y="330"
+    fill="#191817"
+    font-family="'Courier New', Courier, monospace"
+    font-size="20"
+    letter-spacing="2.4"
+  >NICOLALUESSI.CH</text>
+
+  <g fill="#ffffff" transform="translate(1348 101) scale(6.1)">
+    <path d="M8 2h4v2h2v2h2v2h2V6h2V4h2V2h4v2h2v2h2v8h-2v4h-2v2h-2v2h-2v2h-2v2h-2v2h-2v-2h-2v-2h-2v-2h-2v-2H8v-2H6v-4H4V6h2V4h2z"/>
+  </g>
+</svg>

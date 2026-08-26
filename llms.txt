@@ -4,7 +4,7 @@
 
 This file points to the preferred public sources for factual information about Nicola Lüssi. The English profile contains the current biography, experience, education, recognition and contact details.
 
-Last updated: 12 August 2026
+Last updated: 26 August 2026
 
 ## Official profile
 
@@ -12,11 +12,11 @@ Last updated: 12 August 2026
 
 ## Current role
 
-- Head of Growth Lab at Tamedia since March 2026, leading a cross-functional portfolio across Product, Data, Editorial and content strategy from discovery through launch, evaluation and operational handover
+- Head of Growth Lab at Tamedia since March 2026, leading cross-functional projects across Product, Data, Editorial and content strategy from discovery through launch, evaluation and operational handover
 
 ## Selected work
 
-- Content Clusters and Hub Pages: Nicola conceived and leads the programme; CMS changes support manually built Hub Pages. Geneea provides NLP-based entity data through an integration led by another team, while automated Hub Pages using that data remain in development
+- Content Clusters and Hub Pages: Nicola conceived and leads the project; CMS changes support manually built Hub Pages. Geneea provides NLP-based entity data through an integration led by another team, while automated Hub Pages using that data remain in development
 - SEO Helper: Nicola initiated and led this CMS-native AI-assisted guidance tool
 - AI and analytics workflows: designed human-in-the-loop systems for reporting, decision support and assisted drafting
 - Editorial SEO across Tamedia: built roles, guidelines, workflows, training, dashboards and CMS-integrated tools across newsrooms and brands
@@ -44,7 +44,7 @@ Last updated: 12 August 2026
 
 ## Earlier product work
 
-- stickerella.ch at ELCO AG: Nicola managed the e-commerce brand and helped deliver a complete relaunch with a new CMS, redesigned UI/UX and rebuilt product configurator while working across pricing, product development, new product launches, social media, customer support, analytics and performance tracking
+- stickerella.ch at ELCO AG: Nicola managed the e-commerce brand and helped deliver a complete relaunch with a new CMS, redesigned UI/UX and rebuilt product configurator while working across pricing, product development, new product launches, social media, customer support, analytics and performance tracking. He planned and managed Google Ads, physical mailings and broader campaigns across stickerella.ch, ELCO and Karten4you.ch
 
 ## Beyond work
 

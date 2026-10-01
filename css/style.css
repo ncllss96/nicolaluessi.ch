@@ -185,20 +185,11 @@ a:not(.button):hover {
   text-decoration: none;
 }
 
-.site-monogram {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 30px;
-  height: 30px;
-  border: 1px solid var(--line);
-  border-radius: 50%;
-  color: var(--red);
-  font-family: var(--serif);
-  font-size: 0.92rem;
-  font-weight: 400;
-  letter-spacing: -0.08em;
-  line-height: 1;
+.site-logo {
+  display: block;
+  flex: 0 0 auto;
+  width: 28px;
+  height: 24px;
 }
 
 .primary-nav,
@@ -996,10 +987,9 @@ a.button:focus-visible,
   text-decoration: none;
 }
 
-.footer-brand .site-monogram {
-  width: 26px;
-  height: 26px;
-  font-size: 0.8rem;
+.footer-brand .site-logo {
+  width: 23px;
+  height: 20px;
 }
 
 @media (max-width: 920px) {

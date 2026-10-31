@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SEO-Check for Chrome | Nicola Lüssi</title>
+  <meta name="description" content="A Chrome extension that explains a page's SEO health in plain language. Built for marketing leads without an SEO background.">
+  <link rel="canonical" href="https://nicolaluessi.ch/extension/">
+  <link rel="icon" href="/favicon.png" type="image/png">
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    .wiki{max-width:760px;margin:0 auto;padding:clamp(48px,6vw,88px) 24px}
+    .wiki h1{font-family:var(--serif);font-weight:400;font-size:clamp(2.6rem,6vw,4.4rem);line-height:1.02;letter-spacing:-.035em;margin:16px 0 24px;text-wrap:balance}
+    .wiki h1 em{color:var(--red)}
+    .wiki h2{font-family:var(--serif);font-weight:400;font-size:clamp(1.8rem,3.4vw,2.4rem);line-height:1.1;margin:56px 0 16px}
+    .wiki p,.wiki li{color:var(--muted)}
+    .wiki p strong,.wiki li strong{color:var(--ink)}
+    .wiki table{width:100%;border-collapse:collapse;margin:16px 0}
+    .wiki th{font-family:var(--mono);font-size:.72rem;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--red);text-align:left}
+    .wiki th,.wiki td{padding:12px 16px 12px 0;border-bottom:1px solid var(--line);vertical-align:top}
+    .wiki td:first-child{font-weight:500;white-space:nowrap}
+    .wiki code{font-family:var(--mono);font-size:.85em;background:var(--surface);padding:2px 6px;border-radius:4px}
+    .wiki ol,.wiki ul{padding-left:20px}
+    .status{font-family:var(--mono);font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;border:1px solid var(--line);border-radius:6px;padding:2px 8px;white-space:nowrap}
+    .status.live{border-color:var(--red);color:var(--red)}
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <a class="site-brand" href="/" aria-label="Nicola Lüssi, home"><svg class="site-logo" width="28" height="24" aria-hidden="true" focusable="false" viewBox="0 0 178 152" ><path fill="#cb251f" d="M26 0h22v22h-22zM52 0h22v22h-22zM104 0h22v22h-22zM130 0h22v22h-22zM0 26h22v22h-22zM26 26h22v22h-22zM52 26h22v22h-22zM78 26h22v22h-22zM104 26h22v22h-22zM130 26h22v22h-22zM156 26h22v22h-22zM0 52h22v22h-22zM26 52h22v22h-22zM52 52h22v22h-22zM78 52h22v22h-22zM104 52h22v22h-22zM130 52h22v22h-22zM156 52h22v22h-22zM26 78h22v22h-22zM52 78h22v22h-22zM78 78h22v22h-22zM104 78h22v22h-22zM130 78h22v22h-22zM52 104h22v22h-22zM78 104h22v22h-22zM104 104h22v22h-22zM78 130h22v22h-22z"/></svg><span>Nicola Lüssi</span></a>
+    <nav class="primary-nav" aria-label="Main navigation">
+      <a href="/#about">About</a><a href="/#impact">Work</a><a href="/#experience">Experience</a><a href="/#tools">Systems</a><a href="/#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main" class="wiki">
+    <p class="eyebrow">Tools · Chrome extension</p>
+    <h1>SEO-Check, <em>explained.</em></h1>
+    <p>A Chrome extension that answers one question for people who do not work in SEO: <strong>how well is this page set up for Google, and what should I do about it?</strong> It reads the open page, runs 15 checks and explains every result in plain language. No jargon without a definition, no score without a next step.</p>
+    <p>It started as a tool for the marketing team of a Swiss clinic, and works on any website.</p>
+
+    <h2>How to use it</h2>
+    <ol>
+      <li>Open the page you want to check.</li>
+      <li>Click the heart in the Chrome toolbar.</li>
+      <li>Read the verdict at the top. Open any point to see <strong>what it is</strong>, <strong>why it matters</strong> and <strong>what to do</strong>.</li>
+    </ol>
+
+    <h2>Feature overview</h2>
+    <table>
+      <thead><tr><th>Check</th><th>What it tells you</th></tr></thead>
+      <tbody>
+        <tr><td>Verdict and count</td><td>One sentence on the page's overall state, plus the number of points to improve and a bar with one segment per check.</td></tr>
+        <tr><td>Page title</td><td>Present, and between 25 and 65 characters.</td></tr>
+        <tr><td>Meta description</td><td>Present, and between 70 and 165 characters.</td></tr>
+        <tr><td>Main heading (H1)</td><td>Exactly one per page.</td></tr>
+        <tr><td>Subheadings</td><td>At least two H2 headings to structure the text.</td></tr>
+        <tr><td>Text length</td><td>Word count of the main content, with 300 as a guide for important pages.</td></tr>
+        <tr><td>Image descriptions</td><td>Share of images with alt text.</td></tr>
+        <tr><td>Visible to Google</td><td><code>noindex</code> in the page or headers, and a full block in <code>robots.txt</code>.</td></tr>
+        <tr><td>HTTPS</td><td>Whether the page loads over a secure connection.</td></tr>
+        <tr><td>Mobile setup</td><td>Viewport tag present.</td></tr>
+        <tr><td>Canonical address</td><td>Whether the official URL is declared.</td></tr>
+        <tr><td>Page language</td><td><code>lang</code> attribute on the page.</td></tr>
+        <tr><td>Sitemap</td><td>Whether a sitemap is reachable.</td></tr>
+        <tr><td>Share preview</td><td>Open Graph title and image.</td></tr>
+        <tr><td>Structured data</td><td>Whether schema.org markup for an organisation or clinic exists.</td></tr>
+        <tr><td>Links</td><td>Internal and external count, and links without readable text.</td></tr>
+        <tr><td>Topic terms</td><td>The words used most on the page, and whether they also appear in the title or H1.</td></tr>
+      </tbody>
+    </table>
+
+    <h2>Privacy and permissions</h2>
+    <p>Everything runs locally in your browser. <strong>No page content leaves your computer</strong> and there is no account, tracking or external API. The extension asks for <code>activeTab</code> and <code>scripting</code> (to read the page you click on) and host access to the clinic's domain (to read <code>robots.txt</code> and the sitemap).</p>
+
+    <h2>Limits</h2>
+    <ul>
+      <li>It checks <strong>one page at a time</strong>, not a whole site.</li>
+      <li>It shows what is set up, not how the page <strong>ranks</strong>. Rankings, backlinks and traffic need a data source such as Ahrefs or Google Search Console.</li>
+    </ul>
+
+    <h2>Roadmap</h2>
+    <table>
+      <thead><tr><th>Feature</th><th>Status</th><th>Idea</th></tr></thead>
+      <tbody>
+        <tr><td>Redirect path</td><td><span class="status">Planned</span></td><td>Show every hop from the typed address to the final page, with status codes, for example <code>http</code> → <code>https</code> → <code>www</code>. Flags chains longer than one hop.</td></tr>
+        <tr><td>Structured data validator</td><td><span class="status">Planned</span></td><td>Read the page's JSON-LD, check types against required and recommended properties, and point out what is missing.</td></tr>
+        <tr><td>Structured data recommender</td><td><span class="status">Planned</span></td><td>Detect phone, address, opening hours, FAQ blocks and breadcrumbs on the page and generate ready-to-paste JSON-LD.</td></tr>
+        <tr><td>Security check</td><td><span class="status">Planned</span></td><td>Security headers, mixed content, third-party scripts, form targets and a <code>security.txt</code>, each explained in plain language.</td></tr>
+        <tr><td>Speed</td><td><span class="status">Idea</span></td><td>Largest Contentful Paint and Cumulative Layout Shift measured on the open page.</td></tr>
+        <tr><td>Broken links</td><td><span class="status">Idea</span></td><td>Check the links on the page and list the ones that return an error.</td></tr>
+        <tr><td>Export</td><td><span class="status">Idea</span></td><td>Copy the findings as a short report to send to an agency.</td></tr>
+      </tbody>
+    </table>
+  </main>
+
+  <footer class="site-footer">
+    <a class="footer-brand" href="/" aria-label="Nicola Lüssi, home"><svg class="site-logo" width="28" height="24" aria-hidden="true" focusable="false" viewBox="0 0 178 152" ><path fill="#cb251f" d="M26 0h22v22h-22zM52 0h22v22h-22zM104 0h22v22h-22zM130 0h22v22h-22zM0 26h22v22h-22zM26 26h22v22h-22zM52 26h22v22h-22zM78 26h22v22h-22zM104 26h22v22h-22zM130 26h22v22h-22zM156 26h22v22h-22zM0 52h22v22h-22zM26 52h22v22h-22zM52 52h22v22h-22zM78 52h22v22h-22zM104 52h22v22h-22zM130 52h22v22h-22zM156 52h22v22h-22zM26 78h22v22h-22zM52 78h22v22h-22zM78 78h22v22h-22zM104 78h22v22h-22zM130 78h22v22h-22zM52 104h22v22h-22zM78 104h22v22h-22zM104 104h22v22h-22zM78 130h22v22h-22z"/></svg><span>© 2026 Nicola Lüssi</span></a>
+  </footer>
+</body>
+</html>

@@ -37,21 +37,21 @@
   <main id="main" class="wiki">
     <p class="eyebrow">Tools · Chrome extension</p>
     <h1>SEO-Check, <em>explained.</em></h1>
-    <p>A Chrome extension that answers one question for people who do not work in SEO: <strong>how well is this page set up for Google, and what should I do about it?</strong> It reads the open page, runs 15 checks and explains every result in plain language. No jargon without a definition, no score without a next step.</p>
+    <p>A Chrome extension that answers one question for people who do not work in SEO: <strong>how well is this page set up for Google, and what should I do about it?</strong> It reads the open page, runs 17 checks and shows the actual values first: title, description, canonical, status, headings, links, images and schema. Explanations sit in a dropdown, only when you need them.</p>
     <p>It started as a tool for the marketing team of a Swiss clinic, and works on any website.</p>
 
     <h2>How to use it</h2>
     <ol>
       <li>Open the page you want to check.</li>
       <li>Click the heart in the Chrome toolbar.</li>
-      <li>Read the verdict at the top. Open any point to see <strong>what it is</strong>, <strong>why it matters</strong> and <strong>what to do</strong>.</li>
+      <li>Read the verdict at the top. Open any row for what it is, why it matters and what to do. The tabs Structure, Links, Images and Schema list the details.</li>
     </ol>
 
     <h2>Feature overview</h2>
     <table>
       <thead><tr><th>Check</th><th>What it tells you</th></tr></thead>
       <tbody>
-        <tr><td>Verdict and count</td><td>One sentence on the page's overall state, plus the number of points to improve and a bar with one segment per check.</td></tr>
+        <tr><td>Summary</td><td>Number of points to improve and in order, with one bar segment per check.</td></tr>
         <tr><td>Page title</td><td>Present, and between 25 and 65 characters.</td></tr>
         <tr><td>Meta description</td><td>Present, and between 70 and 165 characters.</td></tr>
         <tr><td>Main heading (H1)</td><td>Exactly one per page.</td></tr>
@@ -65,7 +65,8 @@
         <tr><td>Page language</td><td><code>lang</code> attribute on the page.</td></tr>
         <tr><td>Sitemap</td><td>Whether a sitemap is reachable.</td></tr>
         <tr><td>Share preview</td><td>Open Graph title and image.</td></tr>
-        <tr><td>Structured data</td><td>Whether schema.org markup for an organisation or clinic exists.</td></tr>
+        <tr><td>Structured data</td><td>Every JSON-LD block, its type, and whether it parses. Broken code is flagged with the parser error.</td></tr>
+        <tr><td>Detail tabs</td><td>Heading outline, filterable link list (internal, external, nofollow, no text), image list with alt text, and the raw schema blocks.</td></tr>
         <tr><td>Links</td><td>Internal and external count, and links without readable text.</td></tr>
         <tr><td>Topic terms</td><td>The words used most on the page, and whether they also appear in the title or H1.</td></tr>
       </tbody>
